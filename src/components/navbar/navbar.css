@@ -1,0 +1,107 @@
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px 0 40px;
+    justify-content: space-between;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+}
+ 
+    
+.linkWrap{
+    display: flex;
+    width: 30rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Cera Pro light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #3D3D3D;
+    height: 4rem;
+}
+
+.link::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #46A358;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    transform: scale(0,1);
+}
+
+.link:hover{
+    font-weight: 900;
+}
+
+.login-out_bttn{
+    background: #46A358;
+    border-radius: 6px;
+    width: 6.5rem;
+    height: 2.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Cera Pro med';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.itemWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14rem;
+}
+
+.active{
+    position: relative;
+    font-family: 'Cera Pro med';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3D3D3D;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.active::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #46A358;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.scale::after{
+    transform: scale(1,1);
+    transition: transform .5s ease;
+}
+

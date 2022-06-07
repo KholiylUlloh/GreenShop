@@ -1,0 +1,20 @@
+body{
+  padding: 0 5rem;
+}
+
+
+
+@font-face {
+  font-family: 'Cera Pro light';
+  src: url(./assets/CeraPro/Cera\ Pro\ Light.otf);
+}
+
+@font-face {
+  font-family: 'Cera Pro med';
+  src: url(./assets/CeraPro/Cera\ Pro\ Medium.otf);
+}
+
+@font-face {
+  font-family: 'Cera Pro bold';
+  src: url(./assets/CeraPro/Cera\ Pro\ Bold.otf);
+}
