@@ -1,11 +1,11 @@
 import React from 'react';
 import './navbar.css'
-import logo from '../../assets/icons/Logo.svg';
-import search from '../../assets/icons/search.svg';
-import kart from '../../assets/icons/kart.svg';
-import logout from '../../assets/icons/Logout.svg';
+import logo from '../../../assets/icons/Logo.svg';
+import search from '../../../assets/icons/search.svg';
+import kart from '../../../assets/icons/kart.svg';
+import logout from '../../../assets/icons/Logout.svg';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { navbar } from '../../utils/navbar';
+import { navbar } from '../../../utils/navbar';
 
 const Navbar = () => {
   const location = useLocation()

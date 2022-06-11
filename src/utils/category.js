@@ -1,4 +1,4 @@
-import { plants } from '../mock/flowers';
+import { plants } from './mockdata/plants';
 
 export const category = [
   {

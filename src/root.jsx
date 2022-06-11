@@ -1,10 +1,20 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import Navbar from './components/Home/navbar/Navbar'
+import { navbar } from './utils/navbar'
 
 const Root = () => {
   return (
     <div>
-        <Navbar />
+      <Routes>
+        <Route element={<Navbar />}>
+          {
+            navbar.map(({id, path, Element})=>
+              <Route key={id} path={path} element={<Element />} />
+            )
+          }
+        </Route>
+      </Routes>
     </div>
   )
 }
